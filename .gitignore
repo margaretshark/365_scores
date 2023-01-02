@@ -19,10 +19,6 @@ var/
 .installed.cfg
 *.egg
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
 .DS_Store
 .idea
 .ipynb_checkpoints
@@ -34,8 +30,6 @@ pip-delete-this-directory.txt
 nosetests.xml
 coverage.xml
 
-# Translations
-*.mo
 
 # Mr Developer
 .mr.developer.cfg
@@ -51,3 +45,4 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+!README.md
